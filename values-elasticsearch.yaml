@@ -125,7 +125,7 @@ podSecurityPolicy:
     fsGroup:
       rule: RunAsAny
     runAsUser:
-      rule: RunAsAny
+      rule: 1000740001
     seLinux:
       rule: RunAsAny
     supplementalGroups:
