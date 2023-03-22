@@ -1,0 +1,3 @@
+build.enabled="false"
+deploy.route.tls.enabled="true"
+image.name="quay.io/ablock/gitops-helm-quarkus"
