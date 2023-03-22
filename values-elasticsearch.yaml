@@ -216,7 +216,7 @@ maxUnavailable: 1
 
 podSecurityContext:
   fsGroup: 1000
-  runAsUser: 1000
+  runAsUser: 1000740001
 
 securityContext:
   capabilities:
@@ -224,7 +224,7 @@ securityContext:
       - ALL
   # readOnlyRootFilesystem: true
   runAsNonRoot: true
-  runAsUser: 1000
+  runAsUser: 1000740001
 
 # How long to wait for elasticsearch to stop gracefully
 terminationGracePeriod: 120
